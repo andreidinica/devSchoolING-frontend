@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>All users</title>
+    <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+
+</head>
+<body>
+<div class="mainDiv" align="left">
+    <h1>All users</h1>
+    <table>
+        <thead>
+        <tr>
+            <td>Name</td>
+            <td>Data</td>
+            <td>Category</td>
+            <td>Action</td>
+        </tr>
+        </thead>
+        <tbody id="table_body">
+
+        </tbody>
+    </table>
+</div>
+<script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+<script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyCndhgDa-aQzJzAbriWpWHk0diCu_mGMdc",
+        authDomain: "event-handler-c57e8.firebaseapp.com",
+        databaseURL: "https://event-handler-c57e8.firebaseio.com",
+        projectId: "event-handler-c57e8",
+        storageBucket: "event-handler-c57e8.appspot.com",
+        messagingSenderId: "187216316940"
+    };
+    firebase.initializeApp(config);
+</script>
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
